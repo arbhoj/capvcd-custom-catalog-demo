@@ -19,7 +19,7 @@ spec:
   secretRef:
     name: tls-root-ca    
   timeout: 20s
-  url: https://170.17.138.101/dkp/kommander/git/kommander/custom-catalog
+  url: https://github.com/arbhoj/capvcd-custom-catalog-demo
 EOF
 
 ``` 
