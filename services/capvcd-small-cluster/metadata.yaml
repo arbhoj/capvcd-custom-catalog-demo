@@ -1,7 +1,7 @@
 displayName: K8S-Small
 description: Deploy a Small Kubernetes Cluster
 category:
-  - capi-small
+  - capi-capvcd
 type: catalog
 allowMultipleInstances: true
 scope:

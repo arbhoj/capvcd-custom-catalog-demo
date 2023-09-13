@@ -1,7 +1,7 @@
 displayName: K8S-Large edit
 description: Deploy a Large Kubernetes Cluster
 category:
-  - capi-large
+  - capi-capvcd
 type: catalog
 allowMultipleInstances: true
 scope:

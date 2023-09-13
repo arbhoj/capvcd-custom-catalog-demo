@@ -1,7 +1,7 @@
 displayName: K8S-Custom
 description: Deploy a Custom Size Kubernetes Cluster (demo time)
 category:
-  - capi-custom
+  - capi-capvcd
 type: catalog
 allowMultipleInstances: true
 scope:

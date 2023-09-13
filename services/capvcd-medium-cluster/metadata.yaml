@@ -1,7 +1,7 @@
 displayName: K8S-Medium
 description: Deploy a Medium Kubernetes Cluster
 category:
-  - capi-medium
+  - capi-capvcd
 type: catalog
 allowMultipleInstances: true
 scope:
