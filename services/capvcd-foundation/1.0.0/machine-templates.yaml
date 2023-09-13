@@ -1,0 +1,84 @@
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
+kind: VCDMachineTemplate
+metadata:
+  name: large-v1.24.6
+  namespace: customer
+spec:
+    template:
+      spec:
+        catalog: dkp-customer
+        enableNvidiaGPU: false
+        sizingPolicy: ngCaaS-dkp_worker_standard
+        storageProfile: Ultra Fast Storage AB Mirrored with Backup
+        template: dkp-new-large-2.4.0-ubuntu-k8s-v1.24.6
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
+kind: VCDMachineTemplate
+metadata:
+  name: large-v1.25.6
+  namespace: customer
+spec:
+    template:
+      spec:
+        catalog: dkp-customer
+        enableNvidiaGPU: false
+        sizingPolicy: ngCaaS-dkp_worker_standard
+        storageProfile: Ultra Fast Storage AB Mirrored with Backup
+        template: dkp-new-large-2.4.0-ubuntu-k8s-v1.25.6
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
+kind: VCDMachineTemplate
+metadata:
+  name: medium-v1.25.6
+  namespace: customer
+spec:
+    template:
+      spec:
+        catalog: dkp-customer
+        enableNvidiaGPU: false
+        sizingPolicy: ngCaaS-dkp_worker_standard
+        storageProfile: Ultra Fast Storage AB Mirrored with Backup
+        template: dkp-new-medium-2.4.0-ubuntu-k8s-v1.25.6
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
+kind: VCDMachineTemplate
+metadata:
+  name: medium-v1.24.6
+  namespace: customer
+spec:
+    template:
+      spec:
+        catalog: dkp-customer
+        enableNvidiaGPU: false
+        sizingPolicy: ngCaaS-dkp_worker_standard
+        storageProfile: Ultra Fast Storage AB Mirrored with Backup
+        template: dkp-new-medium-2.4.0-ubuntu-k8s-v1.24.6
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
+kind: VCDMachineTemplate
+metadata:
+    name: small-v1.25.6
+    namespace: customer
+spec:
+    template:
+      spec:
+        catalog: dkp-customer
+        enableNvidiaGPU: false
+        sizingPolicy: ngCaaS-dkp_control_standard
+        storageProfile: Ultra Fast Storage AB Mirrored with Backup
+        template: dkp-new-small-2.4.0-ubuntu-k8s-v1.25.6
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
+kind: VCDMachineTemplate
+metadata:
+    name: small-v1.24.6
+    namespace: customer
+spec:
+    template:
+      spec:
+        catalog: dkp-customer
+        enableNvidiaGPU: false
+        sizingPolicy: ngCaaS-dkp_control_standard
+        storageProfile: Ultra Fast Storage AB Mirrored with Backup
+        template: dkp-new-small-2.4.0-ubuntu-k8s-v1.24.6
